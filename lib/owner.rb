@@ -28,7 +28,6 @@ attr_accessor :name
     "I am a #{self.species}."
   end
 
-
   def pets
     pets = {:fishes => [], :dogs => [], :cats => []}
   end
