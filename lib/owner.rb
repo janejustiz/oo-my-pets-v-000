@@ -10,7 +10,7 @@ class Owner
   end
 
   def self.all
-    @@all
+    self
   end
 
   def self.reset_all
@@ -18,7 +18,7 @@ class Owner
   end
 
   def self.count
-    self.length
+    @@all.length
   end
 
   def species
