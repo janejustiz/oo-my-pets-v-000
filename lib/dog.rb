@@ -5,5 +5,6 @@ class Dog
   def initialize(name, mood = "nervous")
     @name = name
     @mood = mood
+    Owner.pets[:dogs] << self
   end
 end
