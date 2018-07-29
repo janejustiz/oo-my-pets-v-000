@@ -1,11 +1,11 @@
 class Owner
-  
+
   @@all = []
 
   def initialize
 
   end
-  
+
   def species
 
   end
@@ -13,5 +13,5 @@ class Owner
   def say_species
 
   end
-  
+
 end
