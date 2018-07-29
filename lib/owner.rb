@@ -39,6 +39,7 @@ class Owner
   def buy_fish(name, mood = nil)
     fish = Fish.new(name, mood = nil)
     @name = name
+    pets[:fishes] << self
   end
 
   def buy_cat
