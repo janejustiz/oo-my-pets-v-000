@@ -3,7 +3,7 @@ class Owner
   @@all = []
 
   def initialize(species)
-    @species = species
+    self.species = species
     @@all << self
   end
 
