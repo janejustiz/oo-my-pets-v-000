@@ -17,7 +17,7 @@ class Owner
   end
 
   def self.count
-    length
+    all.length
   end
 
   def species
