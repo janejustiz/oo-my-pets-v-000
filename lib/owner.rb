@@ -36,7 +36,8 @@ class Owner
     pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
-  def buy_fish
+  def buy_fish(name,mood = nil)
+    fish = Fish.new(name, mood = nil)
   end
 
   def buy_cat
