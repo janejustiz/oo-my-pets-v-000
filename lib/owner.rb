@@ -15,6 +15,10 @@ class Owner
     all.clear
   end
 
+  def self.count
+    all.length
+  end
+
   def species
   end
 
