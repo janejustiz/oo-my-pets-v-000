@@ -17,7 +17,7 @@ class Owner
   end
 
   def self.count
-    all.length
+    length
   end
 
   def species
@@ -37,6 +37,7 @@ class Owner
   end
 
   def buy_fish(name)
+    self.new("fish")
     fish = Fish.new(name)
     pets[:fishes] << fish
   end
